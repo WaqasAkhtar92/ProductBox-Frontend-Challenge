@@ -10,7 +10,7 @@ export function getProducts() {
     }
     axios.get(`${baseUrl}/items`).then(res => {
 
-        
+        JSON.stringify(res)
         console.log('this is data')
         console.log(res.data)
         console.log('this is data')
@@ -18,6 +18,7 @@ export function getProducts() {
         state.products = res.data
         console.log(state)
         console.log('this is last data sjdfkldsflsdjfk  state')
+       
     })
     .catch(err => console.log(err))
 

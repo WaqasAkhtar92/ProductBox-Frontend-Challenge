@@ -7,13 +7,12 @@ export const DataContext = React.createContext();
 export default class DataProvider extends Component {
 
     // get all products from product service
-    productList = [] = getProducts()
+    productList = getProducts()
     
-
     
     // set state
     state = {
-        products : this.productList,
+        products: this.productList,
         cart: [],
         total: 0
     }
@@ -109,7 +108,7 @@ export default class DataProvider extends Component {
     render() {
         const {products, cart, total} = this.state
         const {addCart,reduction,increase,removeProduct,getTotal} = this;
-        console.log(products)
+        console.log(products.products, 'this is product on waqas akhtar productsList')
         return (
             <DataContext.Provider
             value={{products, addCart, cart, reduction, increase, removeProduct, total, getTotal}}>
