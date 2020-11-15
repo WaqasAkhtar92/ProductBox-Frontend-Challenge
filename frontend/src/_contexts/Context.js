@@ -7,11 +7,13 @@ export const DataContext = React.createContext();
 export default class DataProvider extends Component {
 
     // get all products from product service
-    productlist = getProducts()
+    productList = [] = getProducts()
+    
 
+    
     // set state
     state = {
-        products : this.productlist,
+        products : this.productList,
         cart: [],
         total: 0
     }
@@ -59,7 +61,7 @@ export default class DataProvider extends Component {
 
     //remove product from cart, function
     removeProduct = id =>{
-        if(window.confirm("Do you want to delete this product?")){
+        if(window.confirm("Do you want to remove this product?")){
             const {cart} = this.state;
             cart.forEach((item, index) =>{
                 if(item._id === id){
@@ -103,10 +105,11 @@ export default class DataProvider extends Component {
     }
 
 
-    // render
+
     render() {
         const {products, cart, total} = this.state
         const {addCart,reduction,increase,removeProduct,getTotal} = this;
+        console.log(products)
         return (
             <DataContext.Provider
             value={{products, addCart, cart, reduction, increase, removeProduct, total, getTotal}}>
