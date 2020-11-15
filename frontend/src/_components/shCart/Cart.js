@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Header() {
+export default function Cart() {
     return (
         <div>
-            Header Works!
+            Cart Works
         </div>
     )
 }

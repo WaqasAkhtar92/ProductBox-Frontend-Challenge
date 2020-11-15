@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Header() {
+export default function ProductsList() {
     return (
         <div>
-            Header Works!
+            Product Listing Works
         </div>
     )
 }

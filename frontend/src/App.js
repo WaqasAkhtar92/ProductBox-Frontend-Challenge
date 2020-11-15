@@ -1,21 +1,26 @@
-import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import './App.css';
+import DataProvider from './contexts/Context';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/shared/Header';
+import ShCart from './components/ShCart';
 
-import Header from './_components/shared/Header'
-import Home from './_components/Home'
-import CheckOut from './_components/CheckOut'
+function App() {
+  return (
 
-export default function App() {
-  return (      
-    <BrowserRouter>
-     <div>
-       <Header />
-         <Switch>
-          <Route path="/" component={Home} exact/>
-          <Route path="/CheckOut" component={CheckOut}/>
-        </Switch>
-     </div> 
-   </BrowserRouter>
- );
+    <DataProvider>
 
+    <div className="App">
+      <Router>
+        
+        <Header />
+        <ShCart />
+
+      </Router>
+
+    </div>
+
+    </DataProvider>
+  );
 }
+
+export default App;
