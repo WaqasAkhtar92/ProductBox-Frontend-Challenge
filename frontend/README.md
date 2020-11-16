@@ -2,6 +2,7 @@
 
 ## Screenshot Home
 
+![alt text](https://github.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/blob/waqas/frontend/taskScreenshots/frontTaskscreenshot1.PNG)
 https://github.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/blob/waqas/frontend/taskScreenshots/frontTaskscreenshot1.PNG
 
 ## Screenshot localStorage
