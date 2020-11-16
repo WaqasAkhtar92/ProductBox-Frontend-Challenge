@@ -7,6 +7,7 @@ https://github.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/blob/waqas/fronte
 
 ## Screenshot localStorage
 
+![alt text](https://github.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/blob/waqas/frontend/taskScreenshots/frontTaskScreenshot2.PNG)
 <https://github.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/blob/waqas/frontend/taskScreenshots/frontTaskScreenshot2.PNG?raw=true>
 
 ## React part
