@@ -2,11 +2,11 @@
 
 ## Screenshot Home
 
-<https://raw.githubusercontent.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/waqas/frontend/taskScreenshots/frontTaskscreenshot1.PNG>
+<https://github.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/blob/waqas/frontend/taskScreenshots/frontTaskscreenshot1.PNG?raw=true>
 
 ## Screenshot localStorage
 
-<https://raw.githubusercontent.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/waqas/frontend/taskScreenshots/frontTaskScreenshot2.PNG>
+<https://github.com/WaqasAkhtar92/ProductBox-Frontend-Challenge/blob/waqas/frontend/taskScreenshots/frontTaskScreenshot2.PNG?raw=true>
 
 ## React part
 
