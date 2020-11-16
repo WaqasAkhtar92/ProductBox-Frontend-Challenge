@@ -24,9 +24,12 @@ export default class DataProvider extends Component {
             return item._id !== id
         })
         if(check){
-            const data = products.filter(product =>{
-                return product._id === id
+            const data = Object.values(products).filter(product =>{
+                return product.id === id
             })
+            // const data = products.filter(product =>{
+            //     return product.id === id
+            // })
             this.setState({cart: [...cart,...data]})
         }else{
             alert("The product has been added to cart.")
