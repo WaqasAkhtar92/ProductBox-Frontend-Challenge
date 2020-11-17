@@ -20,19 +20,19 @@ export default class ProductsList extends Component {
     
                     {           <div className="card" key={product.id}>
     
-                                <Link to={`/product/${product.id}`}>
-                                    <img src={product.img} alt={product.name} />
-                                </Link>
+                                    <Link to={`/product/${product.id}`}>
+                                        <img src={product.img} alt={product.name} />
+                                    </Link>
     
-                                <div className="content">
-                                    <h3>
-                                        <Link to={`/product/${product.id}`}>{`${product.name}`}</Link>
-                                    </h3>
+                                    <div className="content">
+                                        <h3>
+                                            <Link to={`/product/${product.id}`}>{`${product.name}`}</Link>
+                                        </h3>
     
-                                    <span> {`${product.price}`} </span>
-                                    <button onClick={()=> addCart(product._id)}>Add to cart</button>
+                                        <span> {`${product.price}`} </span>
+                                        <button onClick={()=> addCart(product._id)}>Add to cart</button>
+                                    </div>
                                 </div>
-                            </div>
                     }
                     
                 </div>
