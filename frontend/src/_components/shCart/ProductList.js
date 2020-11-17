@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import { DataContext } from '../contexts/Context'
+import { DataContext } from '../../contexts/Context'
 import '../../_assets/css/ProductList.css'
 
 export default class ProductsList extends Component {
