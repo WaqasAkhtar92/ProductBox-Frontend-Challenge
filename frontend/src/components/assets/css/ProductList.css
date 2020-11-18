@@ -5,8 +5,8 @@
     flex-wrap: wrap;
 }
 .card{
-    min-width: 300px;
-    min-height: 400px;
+    min-width: 250px;
+    min-height: 500px;
     border: 1px solid #eee;
     overflow: hidden;
     padding: 10px;
