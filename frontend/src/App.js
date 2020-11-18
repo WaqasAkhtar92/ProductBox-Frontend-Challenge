@@ -1,8 +1,8 @@
 import './App.css';
-import DataProvider from './contexts/Context';
+import DataProvider from './_contexts/Context';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Header from './components/shared/Header';
-import ShCart from './components/ShCart';
+import Header from './_components/shared/Header'
+import Shcart from './_components/ShCart'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Router>
         
         <Header />
-        <ShCart />
+        <Shcart />
 
       </Router>
 

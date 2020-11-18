@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Menu from '../../assets/img/bars-solid.svg'
-import Close from '../../assets/img/times-solid.svg'
-import CartIcon from '../../assets/img/shopping-cart-solid.svg'
+import Menu from '../../_assets/img/bars-solid.svg'
+import Close from '../../_assets/img/times-solid.svg'
+import CartIcon from '../../_assets/img/shopping-cart-solid.svg'
 import {Link} from 'react-router-dom'
-import '../assets/css/Header.css'
-import {DataContext} from '../contexts/Context'
+import '../../_assets/css/Header.css'
+import {DataContext} from '../../_contexts/Context'
 
 
 
